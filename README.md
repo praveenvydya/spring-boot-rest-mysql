@@ -1,16 +1,15 @@
-[![Build Status](https://travis-ci.com/givanthak/spring-boot-rest-api-tutorial.svg?branch=master)](https://travis-ci.com/givanthak/spring-boot-rest-api-tutorial)
-[![Known Vulnerabilities](https://snyk.io/test/github/givanthak/spring-boot-rest-api-tutorial/badge.svg)](https://snyk.io/test/github/givanthak/spring-boot-rest-api-tutorial)
 
 
 
-# Sample REST CRUD API with Spring Boot, Mysql, JPA and Hibernate 
+
+# Sample REST CRUD API with Spring Boot, Mysql and JPA 
 
 ## Steps to Setup
 
 **1. Clone the application**
 
 ```bash
-https://github.com/givanthak/spring-boot-rest-api-tutorial.git
+https://github.com/praveenvydya/spring-boot-rest-mysql.git
 ```
 
 **2. Create Mysql database**
@@ -44,16 +43,14 @@ The app will start running at <http://localhost:8080>.
 
 The app defines following CRUD APIs.
 
-    GET /api/v1/users
+    GET /users
     
-    POST /api/v1/users
+    POST /users
     
-    GET /api/v1/users/{userId}
+    GET /users/{userId}
     
-    PUT /api/v1/users/{userId}
+    PUT /users/{userId}
     
     DELETE /api/v1/users/{userId}
 
-You can find the tutorial for this application on my blog -
 
-<https://www.prathapgivantha.wordpress.com>
